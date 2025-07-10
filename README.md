@@ -7,16 +7,27 @@ A simple console-based Cafe Management System built using Java and MySQL with JD
 ## 📁 Folder Structure
 
 cafe_java_/
+
 ├── src/
+
 │ ├── dao/
+
 │ ├── db/
+
 │ ├── models/
+
 │ └── Main.java
+
 ├── lib/
+
 │ └── mysql-connector-j-9.3.0.jar
+
 ├── out/ (compiled .class files)
+
 ├── TestDriver.java
+
 ├── run.bat (optional launcher)
+
 ├── README.md
 
 
@@ -55,7 +66,7 @@ CREATE TABLE orders (
 );
 
 
-🚀 How to Compile and Run
+###   🚀 How to Compile and Run
 1. Compile:
 bash
 Copy
@@ -72,20 +83,21 @@ bash
 Copy
 Edit
 java -cp ".;lib/mysql-connector-j-9.3.0.jar;out" Main
+
+##
+
 🏃 Run Automatically (Windows only)
 Double-click run.bat to compile and run everything at once.
+
+##
 
 🧪 Test MySQL Driver (Optional)
 Use this file to verify the JDBC driver:
 
-bash
-Copy
-Edit
+
 javac -cp ".;lib/mysql-connector-j-9.3.0.jar" TestDriver.java
 java -cp ".;lib/mysql-connector-j-9.3.0.jar" TestDriver
-Should output:
 
-lua
-Copy
-Edit
+###
+Should output:
 ✅ MySQL JDBC Driver found and loaded!
