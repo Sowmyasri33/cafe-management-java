@@ -67,37 +67,15 @@ CREATE TABLE orders (
 
 
 ###   🚀 How to Compile and Run
+
 1. Compile:
-bash
-Copy
-Edit
+
 javac -cp ".;lib/mysql-connector-j-9.3.0.jar" -d out ^
-src\db\DBConnection.java ^
-src\models\MenuItem.java ^
-src\models\Order.java ^
-src\dao\MenuDAO.java ^
-src\dao\OrderDAO.java ^
-src\Main.java
+
+
+
 2. Run:
-bash
-Copy
-Edit
+
 java -cp ".;lib/mysql-connector-j-9.3.0.jar;out" Main
 
-##
 
-🏃 Run Automatically (Windows only)
-Double-click run.bat to compile and run everything at once.
-
-##
-
-🧪 Test MySQL Driver (Optional)
-Use this file to verify the JDBC driver:
-
-
-javac -cp ".;lib/mysql-connector-j-9.3.0.jar" TestDriver.java
-java -cp ".;lib/mysql-connector-j-9.3.0.jar" TestDriver
-
-###
-Should output:
-✅ MySQL JDBC Driver found and loaded!
